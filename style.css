@@ -1,0 +1,130 @@
+* {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+	body{
+        font-family: 'Times New Roman', Times, serif;
+         background-color: blanchedalmond;
+        color: black;
+	}
+        header {
+            text-align: center;
+            padding: 50px 20px 20px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: auto;
+            padding: 30px;
+        }
+
+        .titulo-versiculo {
+            text-align: center;
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+
+        .referencia {
+            font-size: 28px;
+            margin-bottom: 25px;
+        }
+
+        .conteudo {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+        }
+
+        .texto {
+            flex: 1;
+        }
+
+        .mensagem {
+            font-size: 25px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        .musica {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        audio {
+            width: 100%;
+            max-width: 450px;
+        }
+
+        .imagem {
+            flex: 1;
+            text-align: center;
+        }
+
+        .imagem img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* TABLET E TELEMÓVEL */
+        @media (max-width: 768px) {
+
+            header {
+                padding-top: 30px;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+
+            main {
+                padding: 20px;
+            }
+
+            .conteudo {
+                flex-direction: column;
+            }
+
+            .mensagem {
+                font-size: 20px;
+            }
+
+            .referencia {
+                font-size: 24px;
+            }
+
+            .imagem img {
+                max-width: 100%;
+            }
+        }
+
+        /* TELEMÓVEIS PEQUENOS */
+        @media (max-width: 480px) {
+
+            h1 {
+                font-size: 25px;
+            }
+
+            .titulo-versiculo {
+                font-size: 21px;
+            }
+
+            .referencia {
+                font-size: 22px;
+            }
+
+            .mensagem {
+                font-size: 18px;
+            }
+
+            main {
+                padding: 15px;
+            }
+        }
