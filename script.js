@@ -17,6 +17,8 @@ const p = document.querySelector(".mensagem");
                textTypingEffect(p,mensagens[r] );
         }
 
+
+        // Efeito de digitação
         function textTypingEffect(elemento,mensagem,i = 0 ) {
 
             // Limpa a mensagem quando começa
