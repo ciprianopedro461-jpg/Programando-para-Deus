@@ -20,6 +20,8 @@
 
     <header>
         <h1>PALAVRA DE DEUS</h1>
+         <button onclick="gerarVersiculo()" class="bt"><div class="setas">&#x21C4</div></button>
+
     </header>
 
     <main>
@@ -28,17 +30,12 @@
             Versículo do dia
         </p>
 
-        <p class="referencia">
-            Jeremias 29:11
-        </p>
-
         <section class="conteudo">
 
             <div class="texto">
 
-                <p class="mensagem">
-                    
-                </p>
+                <!-- Mensagem que será alterada -->
+                <p class="mensagem"></p>
 
                 <p class="musica">
                     Música para meditar
@@ -47,19 +44,25 @@
                 <audio controls>
                     <source src="a_ele_e_a_gloria.mp3"
                             type="audio/mpeg">
+
                     O seu navegador não suporta áudio.
                 </audio>
 
             </div>
 
             <div class="imagem">
-                <img src="cruz.jpeg" alt="Cruz cristã">
+
+                <img src="cruz.jpeg"
+                     alt="Cruz cristã">
+
             </div>
 
         </section>
 
     </main>
-<script src="script.js"></script>
+
+    <script src="script.js"></script>
+
 </body>
 
 </html>
