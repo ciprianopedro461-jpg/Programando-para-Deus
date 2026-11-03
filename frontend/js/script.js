@@ -38,7 +38,7 @@ const p = document.querySelector(".mensagem");
 
 
             // Continua escrevendo depois de 80ms
-            setTimeout(() => {textTypingEffect(elemento,mensagem,i + 1);}, 80);
+            setTimeout(() => {textTypingEffect(elemento,mensagem,i + 1);}, 50);
         }
 
     
